@@ -182,7 +182,7 @@ class Auth_Check{
 $main=new Auth_Check();
 echo $main->Captcha()."\n";
 $captcha=readline('Enter a Captch : '); 
-$test_credentials=$main->handshake("59372","India@12345",$captcha);
+$test_credentials=$main->handshake("59XXX","XXXXXXX",$captcha);
 echo $test_credentials;
 ?>
 
